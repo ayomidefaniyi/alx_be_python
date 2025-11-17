@@ -1,4 +1,4 @@
-income = int(input("Enter your montly income "))
+income = int(input("Enter your montly income? "))
 expenses = int(input("Enter your total montly expenses "))
 savings = income - expenses
 print("Your monthly savings are", savings, ".")
