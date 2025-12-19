@@ -1,9 +1,9 @@
 def display_menu():
-    print(f"\nShopping List Manager")
-    print(f"1. Add Item")
-    print(f"2. Remove Item")
-    print(f"3. View List")
-    print(f"4. Exit")
+    print("Shopping List Manager")
+    print("1. Add Item")
+    print("2. Remove Item")
+    print("3. View List")
+    print("4. Exit")
 
 def main():
     shopping_list = []
@@ -27,7 +27,7 @@ def main():
 
         elif choice == '3':
             if shopping_list:
-                print(f"Your Shopping List:")
+                print("Your Shopping List:")
                 for i, item in enumerate(shopping_list, start=1):
                     print(f"{i}. {item}")
             else:
@@ -42,5 +42,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
