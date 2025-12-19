@@ -27,7 +27,7 @@ def main():
 
         elif choice == '3':
             if shopping_list:
-                print("Your Shopping List:")
+                print(f"Your Shopping List:")
                 for i, item in enumerate(shopping_list, start=1):
                     print(f"{i}. {item}")
             else:
@@ -42,3 +42,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
